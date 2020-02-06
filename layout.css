@@ -1,0 +1,50 @@
+/* Style the top navigation bar */
+ul.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+}
+
+li{
+    display: inline;
+}
+
+.topnav a{
+    width: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: black;
+    color: white;
+}
+
+.active {
+    background-color: gray;
+    color: white;
+}
+
+.box {
+    width: 40%;
+    height: auto;
+    display: block;
+    float: center;
+    font-size: large;
+    text-align: center;
+    
+    /*background-image: url("img/Professional.jpg");*/
+}
+
+img.face {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
