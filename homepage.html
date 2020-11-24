@@ -1,18 +1,58 @@
-<html>
-    <head> 
-        <title>Jace's Homepage</title>
-        <link href="layout.css" type = "text/css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="style.css" type="text/css">   
     </head>
-    <ul class = "topnav">
-        <li><a href="homepage.html" class = "active">Home</a></li>
-        <li><a href="about_me.html">About Me</a></li>
-        <li><a href="projects.html">Projects</a></li>
-    </ul>
     <body>
-        <div class=box>
-            <p>Welcome to my website!</ br></p>
-            <p>Check out the links above, or else!</p>
+        <div class = "topmenu">
+            <a class="active" href="homepage.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <b>Jace Holton, Lifelong Student</b>
         </div>
+        <div class="contact">
+            <h1>Hello, I'm Jace! Check out some of the stuff I worked on below.</h1>
+        </div>
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class= "d-block w-50" src="Media/image25.jpeg">
+                    <div class="carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h1>Presenting my research at the National Conference for Undergraduate Research</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class= "d-block w-75" src="Media/3dmap.gif">
+                    <div class="carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h1>A 3D reconstruction of my face using a structured light system.</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class= "d-block w-75" src="Media/LaneDetection.gif">
+                    <div class="carousel-caption d-none d-md-block bg-dark mb-4">
+                        <h1>An OpenCV lane detection program developed by me!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
-
 </html>

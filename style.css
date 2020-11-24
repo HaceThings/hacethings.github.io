@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Top Nav Menu*/
+.topmenu {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.topmenu b {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topmenu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topmenu a:hover {
+    background-color: #dddd;
+    color: black;
+}
+
+.topmenu a.active {
+    background-color: white;
+    color: black;
+}
+
+.topmenu button{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Homepage */
+
+/* Image Carousel */
+
+#slides {
+    padding: 4rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 0.2rem;
+}
+
+.d-block.w-50{
+    padding-top: 5rem;
+}
+
+.d-block.w-75{
+    padding-top: 5rem;
+}
+
+.carousel-item{
+    -webkit-box-align: center;
+    border-style: solid;
+    background-color: gray;
+    height: 1100px;
+}
+
+
+/* About Me */
+.header{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row{
+    padding-left: 1.2rem;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.row-header{
+    padding: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-style: solid;
+    border-width: 1rem;
+}
+
+.section{
+    padding: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+/* Projects */
+
+.slot{
+    padding: 1rem;
+    width: 98%;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-style: solid;
+    border-width: 1rem;
+}
+
+img{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+/* Contact */
+.contact {
+    margin: 1rem;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: #333;
+    padding: 2rem;
+}
+
+
+
+ul{
+    list-style-type: circle;
+}
+
+label{
+    margin: 0.5rem;
+    padding-right: 0.5rem;
+}
